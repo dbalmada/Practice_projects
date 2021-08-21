@@ -22,8 +22,18 @@ p {
     margin: 0px 30px 0px 0px;
 }
 
-.links a{
-    color: gold;
+a:link{
+    color: #FFE600;
+}
+
+a:focus {
+    color: aquamarine;
+}
+a:hover{
+    color: firebrick;
+}
+a:active{
+    color: plum;
 }
 
 .learn-more{
@@ -31,10 +41,10 @@ p {
 }
 
 .accent_color{
-    color: gold;
+    color: #FFE600;
 }
 
 .underlined_accent{
     text-decoration: underline;
-    color: gold;
+    color: #FFE600;
 }
