@@ -1,11 +1,13 @@
 body{
     font-family: 'Lato', sans-serif;
-    max-width: 620px;
-    border: solid;
-    border-color: #2e354F;   
     font-size: 18px;
     margin: 0 auto;
     font-weight: 400;
+}
+
+.container{
+    margin: 0 auto;
+    width: 620px;
 }
 
 h1{
