@@ -3,9 +3,9 @@ body{
     max-width: 620px;
     border: solid;
     border-color: #2e354F;   
-    font-weight: 400;
     font-size: 18px;
     margin: 0 auto;
+    font-weight: 400;
 }
 
 h1{
@@ -13,13 +13,16 @@ h1{
     color: #FFF;
     margin: 0;
     padding: 50px;
+    font-weight: 900;
 }
 
 h2{
     font-size: 24px;
     color: #ef5839;
+    font-weight: 900;
 }
-.bold, h1, h2 {
+
+.bold {
     font-weight: 900;
 }
 
