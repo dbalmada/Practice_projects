@@ -43,7 +43,7 @@ h2{
     padding: 20px 50px 50px 50px;
 }
 
-.section-three a{
+.section-three a, .section-two  a{
     color: #ef5839;
 }
 

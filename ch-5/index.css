@@ -1,0 +1,71 @@
+/* Whole document style */
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    color: #FFF;
+    background-color: black;
+}
+
+.container{
+    width: 570px;
+    margin: 0 auto;
+}
+/* Picture dimensions */
+.sophie{
+    width: 300px;
+}
+
+.introduction, .section-one, .section-two{
+    padding: 100px 0;
+    
+}
+
+.section-one{
+    background-color: white;
+    color: #252525;
+}
+/* Titles */
+h1{
+ font-size: 60px;
+}
+
+h2{
+    font-size: 42px;
+}
+
+h3{
+    font-size: 36px;
+    margin: auto auto 0 auto;
+    font-weight: 900;
+}
+h1, h2{
+    font-weight: 300;
+}
+/* Styling of Sophie's name */
+.name{
+    font-size: 80px;
+}
+
+.profession{
+    font-size: 60px;
+}
+/* Accent  in profession, name and article with their own line*/
+.profession, .name, .article{
+    font-weight: 900;
+    display: block;
+}
+
+.small-print{
+    font-size: 16px;
+    margin: 0;
+}
+
+a{
+    color: #99D930;
+}
+a:hover{
+    color: #131313;;
+}
