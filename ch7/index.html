@@ -1,30 +1,39 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="container">
-        <div id="search">
-            <label for="searchInput">Which location are you interested in?</label>
-            <input id="searchInput" type="text">
+        <div id="container">
+                <div id="search">
+                        <label for="searchInput">Dutch cities info</label>
+                        <input id="searchInput" type="text" placeholder="Type here">
+                </div>
+                <p class="explanation">Type the city and click for more info</p>
+                <div id="results">
+                        <button class="name"> <a href="https://en.wikipedia.org/wiki/Amsterdam" target="_blank">
+                                        Amsterdam</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Utrecht"
+                                        target="_blank">Utrecht</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/The_Hague" target="_blank">The
+                                        Hague</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Tilburg"
+                                        target="_blank">Tilburg</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Zaandam"
+                                        target="_blank">Zaandam</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Amersfoort"
+                                        target="_blank">Amersfoort</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Rotterdam"
+                                        target="_blank">Rotterdam</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Haarlem"
+                                        target="_blank">Haarlem</a></button>
+                        <button class="name"><a href="https://en.wikipedia.org/wiki/Maastricht"
+                                        target="_blank">Maastricht</a></button>
+                </div>
+
         </div>
-
-        <ul id="results">
-            <li class="name">Amsterdam</li>
-            <li class="name">Utrecht</li>
-            <li class="name">Den Haag</li>
-            <li class="name">Tilburg</li>
-            <li class="name">Zaandam</li>
-            <li class="name">Amersfoort</li>
-            <li class="name">Rotterdam</li>
-            <li class="name">Haarlem</li>
-            <li class="name">Maastricht</li>
-        </ul>
-
-    </div>
-    <script src="index.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
