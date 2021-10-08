@@ -1,17 +1,30 @@
 body{
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 26px;
     margin: 0 auto;
     font-weight: 400;
 }
 
 .container{
     margin: 0 auto;
-    width: 620px;
+    max-width: 672px;
+    width: 60%;
+    /* border-style: solid;
+    border-color: black; */
+    text-align: center;
 }
 
+img{
+    width: 100%;
+}
+#boardwalk p {
+    width: 100%;
+    text-align: justify;
+}
+
+
 h1{
-    font-size: 36px;
+    font-size: 2em;
     color: #FFF;
     margin: 0;
     padding: 50px;
@@ -19,7 +32,7 @@ h1{
 }
 
 h2{
-    font-size: 24px;
+    font-size: 1.33em;
     color: #ef5839;
     font-weight: 900;
 }
@@ -31,16 +44,25 @@ h2{
 .section-one{
     background: #2e354F;
     margin: 0;
+    width: 100%;
+}
+
+p{
+    /* width: 80%; */
+    text-align: center;
 }
 
 .section-two{
-    padding: 20px 50px 30px 50px;
+    /* padding: 20px 50px 30px 50px; */
+    padding: 25px 0px 25px 0px;
+    width: 100%;
 }
 
 .section-three{
     background-color: #2e354F;
     color: #FFF;
-    padding: 20px 50px 50px 50px;
+    padding: 20px 0px 50px 0px;
+    width: 100%;
 }
 
 .section-three a, .section-two  a{
@@ -74,6 +96,7 @@ h2{
 }
 
 #boardwalk{
+    min-width: ;
     max-width: 530px;
     max-height: 200px;
 }
